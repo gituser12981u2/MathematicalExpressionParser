@@ -1,0 +1,12 @@
+bin/
+src/archive/
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.vscode/
+.code-workspace
+
