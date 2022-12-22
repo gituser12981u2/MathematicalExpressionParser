@@ -16,6 +16,7 @@ public class Fraction {
 
     
     /** 
+     * Add function for add it will aswell simplifiy it
      * @param other
      * @return Fraction
      */
@@ -28,6 +29,7 @@ public class Fraction {
 
     
     /** 
+     * Add function for add it will aswell simplifiy it
      * @param other
      * @return Fraction
      */
@@ -40,6 +42,7 @@ public class Fraction {
 
     
     /** 
+     * Add function for multiply
      * @param other
      * @return Fraction
      */
@@ -49,6 +52,8 @@ public class Fraction {
 
     
     /** 
+     * Add function for divide
+     * Add function for divide
      * @param other
      * @return Fraction
      */
@@ -58,6 +63,7 @@ public class Fraction {
 
     
     /** 
+     * Find the greatest common divisor
      * @param a
      * @param b
      * @return int
@@ -71,6 +77,7 @@ public class Fraction {
 
     
     /** 
+     * Find the least common mulitiple
      * @param a
      * @param b
      * @return int
@@ -81,7 +88,7 @@ public class Fraction {
 
     
     /** 
-     * @return String
+     * @return fraction to String
      */
     @Override
     public String toString() {
