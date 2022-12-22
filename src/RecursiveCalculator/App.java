@@ -1,7 +1,7 @@
 package RecursiveCalculator;
 
 /**
- * This program uses the and abstract syntax tree
+ * This program uses the and abstract syntax tree to recursivly solve a mathematical expression
  */
 
 import java.util.Scanner;
