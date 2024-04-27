@@ -1,7 +1,7 @@
 package RecursiveCalculator;
 
 /**
- * This program uses abstract syntax tree to recursivly solve a mathematical expression
+ * This program uses an abstract syntax tree to recursivly solve a mathematical expression
  */
 
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class App {
     
     /** 
-     * Main method that initilizes the objects and sets a while loop to continue till use inputs "quit"
+     * Main method that initilizes the objects and sets a while loop to continue till user inputs "quit"
      * @param args
      * @throws Exception
      */
