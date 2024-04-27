@@ -1,18 +1,37 @@
-## Getting Started
+# Java Expression Parser
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Project Overview
+This Java application is designed to parse and evaluate mathematical expressions. It utilizes a Lexer to tokenize input, a Parser to construct an abstract syntax tree (AST), and evaluates these expressions to return results in fractional form.
 
-## Folder Structure
+## Files Description
+- **`App.java`**: The main entry point of the application that sets up the environment and starts the parser.
+- **`ASTNode.java`**: Defines nodes for the abstract syntax tree used by the parser to represent expressions.
+- **`Fraction.java`**: Handles operations and representations of fractions to maintain accuracy in calculations.
+- **`Lexer.java`**: Responsible for breaking down the input into recognizable tokens.
+- **`Parser.java`**: Parses tokens to construct an AST based on the defined grammar of expressions.
+- **`Token.java`**: Represents a token object with a specific type and value.
+- **`TokenType.java`**: Enumerates possible types of tokens that can be recognized by the lexer.
 
-The workspace contains two folders by default, where:
+## Setup and Running
+To run this project, ensure you have Java installed on your machine.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Compile the project:**
+   ```bash
+   javac App.java
+   ```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Run the application:**
+    ```bash
+    java App
+    ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Contributing
+Contributions to this project are welcome. Please adhere to the following steps for contributions:
 
-## Dependency Management
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Add your contributions.
+4. Submit a pull request.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## License
+This project is relased under the GLU 3.0 License. Details can be fount in the 'LICENSE' file. 
