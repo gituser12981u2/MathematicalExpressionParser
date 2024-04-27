@@ -16,7 +16,7 @@ public class Fraction {
 
     
     /** 
-     * Add function for add it will aswell simplifiy it
+     * Function for adding two operands
      * @param other
      * @return Fraction
      */
@@ -29,7 +29,7 @@ public class Fraction {
 
     
     /** 
-     * Add function for add it will aswell simplifiy it
+     * Method for subtracting two operands
      * @param other
      * @return Fraction
      */
@@ -42,7 +42,7 @@ public class Fraction {
 
     
     /** 
-     * Add function for multiply
+     * Method for multiplying two operands
      * @param other
      * @return Fraction
      */
@@ -52,8 +52,7 @@ public class Fraction {
 
     
     /** 
-     * Add function for divide
-     * Add function for divide
+     * Method for dividing two operands
      * @param other
      * @return Fraction
      */
