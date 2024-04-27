@@ -34,4 +34,4 @@ Contributions to this project are welcome. Please adhere to the following steps 
 4. Submit a pull request.
 
 ## License
-This project is relased under the GLU 3.0 License. Details can be fount in the 'LICENSE' file. 
+This project is relased under the GLU 3.0 License. Details can be fount in the '[LICENSE](LICENSE)' file. 
